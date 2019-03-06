@@ -1,8 +1,8 @@
 ### configure java.util.logging.Logger in android
 https://stackoverflow.com/questions/4561345/how-to-configure-java-util-logging-on-android
 
-### 关于briar
-在briar项目中使用了java.util.logging.Logger。并且实现了一个有趣的事情：在release版本中删除全部的日志，在debug版本中保留全部日志
+### 在Android项目的Java子模块中使用java.util.logging.Logger
+在项目中使用了java.util.logging.Logger。并且实现了一个有趣的事情：在release版本中删除全部的日志，在debug版本中保留全部日志
 
 ### 该demo探求了：
 * java.util.logging.Logger在android中如何实现：
